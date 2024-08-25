@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redes</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="container">
+      <section class="banner">
+        <img class="banner_img" src="img-1.jpg" alt="Redes Informáticas" />
+      </section>
+
+      <section class="wrapper">
+        <div class="contents card">
+          <h2 id="Definicion_de_Red">¿Qué es una red?</h2>
+          <hr />
+          <p>
+            Una red es un grupo de dispositivos, como computadoras y teléfonos,
+            que están conectados entre sí para poder comunicarse y compartir
+            información. Imagina una red como un sistema de caminos donde los
+            datos pueden viajar de un lugar a otro. Por ejemplo, cuando envías
+            un mensaje a un amigo, este viaje ocurre a través de una red. Las
+            redes pueden ser pequeñas, como las que se usan en casa, o grandes,
+            como Internet.
+          </p>
+          <h2 id="Clases_de_Redes">Clases de redes</h2>
+          <hr />
+          <ul>
+            <li>
+              <b>Red de Área Local (LAN):</b> Conecta dispositivos en un área
+              pequeña, como una casa o una oficina. Es rápida y permite
+              compartir recursos, como impresoras.
+            </li>
+            <li>
+              <b>Red de Área Amplia (WAN):</b> Cubre un área más grande, como
+              ciudades o países. Conecta múltiples LANs. Internet es el ejemplo
+              más grande de una WAN.
+            </li>
+            <li>
+              <b>Red de Área Metropolitana (MAN):</b> Une varias LANs en una
+              ciudad o una región. Es más grande que una LAN pero más pequeña
+              que una WAN.
+            </li>
+            <li>
+              <b>Red Personal (PAN):</b> Conecta dispositivos personales
+              cercanos, como teléfonos, tabletas y computadoras, normalmente en
+              un rango de pocos metros.
+            </li>
+            <li>
+              <b>Red Inalámbrica (WLAN):</b> Es una LAN que no usa cables,
+              permitiendo que los dispositivos se conecten a través de señales
+              de radio, como Wi-Fi.
+            </li>
+            <li>
+              <b>Red Virtual Privada (VPN):</b> Crea una conexión segura a
+              través de Internet, permitiendo que los usuarios accedan a una red
+              privada desde cualquier lugar.
+            </li>
+          </ul>
+          <p>
+            Estas son las principales clases de redes, cada una diseñada para
+            cumplir diferentes necesidades de comunicación y conexión.
+          </p>
+          <h2 id="Definicion_de_Switch">¿Qué es un switch?</h2>
+          <hr />
+          <p>
+            Un switch es un dispositivo de red que conecta varios dispositivos
+            dentro de una misma red local (LAN). Su función principal es recibir
+            datos de un dispositivo y enviarlos al dispositivo de destino
+            correcto dentro de la red, utilizando direcciones MAC para
+            identificar los dispositivos conectados.
+          </p>
+          <h3>Características principales</h3>
+          <ul>
+            <li>
+              <b>Conmutación de paquetes:</b>Los switches operan en la capa 2
+              (enlace de datos) del modelo OSI, lo que significa que manejan las
+              direcciones MAC para conmutar tramas de datos entre dispositivos
+              en la red.
+            </li>
+            <li>
+              <b>Aprendizaje de direcciones:</b> Un switch mantiene una tabla de
+              direcciones MAC, donde almacena la dirección MAC de cada
+              dispositivo conectado y el puerto al que está conectado. Esto
+              permite al switch aprender dinámicamente dónde se encuentran los
+              dispositivos en la red.
+            </li>
+            <li>
+              <b>Colisión de datos:</b> A diferencia de un hub, que envía datos
+              a todos los puertos, un switch envía datos solo al puerto
+              específico al que está conectado el dispositivo de destino, lo que
+              minimiza las colisiones y mejora la eficiencia de la red.
+            </li>
+            <li>
+              <b>Velocidad:</b> Los switches suelen ser más rápidos que los hubs
+              porque procesan datos en hardware y pueden realizar múltiples
+              transmisiones simultáneamente.
+            </li>
+            <li>
+              <b>Configurabilidad: </b>Algunos switches son "inteligentes" o
+              "gestionados", lo que significa que permiten configuraciones
+              avanzadas, como la creación de VLANs (redes locales virtuales),
+              gestión de tráfico y control de acceso.
+            </li>
+          </ul>
+          <h3>Usos comunes</h3>
+          <ul>
+            <li>
+              Conectar computadoras, impresoras y otros dispositivos en una
+              oficina o en el hogar.
+            </li>
+            <li>Expansión de redes existentes.</li>
+            <li>
+              Segmentación de redes para mejorar el rendimiento y la seguridad.
+            </li>
+          </ul>
+          <h2 id="Modelo_OSI">Modelo OSI</h2>
+          <p>
+            El modelo OSI (Interconexión de Sistemas Abiertos) es un marco
+            teórico que describe cómo se comunican los sistemas de red. Está
+            dividido en siete capas, cada una de las cuales tiene una función
+            específica en el proceso de comunicación. Las capas, de arriba hacia
+            abajo, son:
+          </p>
+          <ol>
+            <li>
+              <b>Capa de Aplicación:</b> Interactúa con el usuario y las
+              aplicaciones.
+            </li>
+            <li>
+              <b>Capa de Presentación:</b> Formatea y traduce datos para la
+              aplicación.
+            </li>
+            <li>
+              <b>Capa de Sesión:</b> Establece, mantiene y finaliza conexiones
+              entre aplicaciones.
+            </li>
+            <li>
+              <b>Capa de Transporte:</b> Asegura la entrega de datos y controla
+              el flujo.
+            </li>
+            <li>
+              <b>Capa de Red:</b> Determina la ruta que seguirán los datos a
+              través de la red.
+            </li>
+            <li>
+              <b>Capa de Enlace de Datos:</b> Proporciona transferencia de datos
+              entre dispositivos en la misma red.
+            </li>
+            <li>
+              <b>Capa Física:</b> Transmite los datos en forma de señales
+              eléctricas o luz.
+            </li>
+          </ol>
+          <h2 id="Cableado_Estructurado">Cableado estructurado</h2>
+          <p>
+            El cableado estructurado es un sistema estandarizado para instalar y
+            organizar cables en un edificio o instalación. Está diseñado para
+            soportar diferentes tipos de redes (como datos, voz y video) de
+            manera eficiente, ordenada y flexible. Incluye cables, conectores,
+            paneles de parcheo y otros componentes que permiten la interconexión
+            de dispositivos de red y asegura que el sistema pueda ser fácilmente
+            gestionado y actualizado.
+          </p>
+          <h3>Ejemplo de Cableado Estructurado</h3>
+          <p>
+            Imagina una oficina de varios pisos que necesita conectar
+            computadoras, teléfonos, cámaras de seguridad y servidores a una red
+            central.
+          </p>
+          <p>
+            <b>Sala de telecomunicaciones:</b> En cada piso hay un cuarto
+            específico donde se concentran los cables que conectan todos los
+            dispositivos de ese piso. Estos cuartos contienen paneles de parcheo
+            (patch panels) y switches de red.
+          </p>
+          <p>
+            <b>Backbone:</b> Desde cada sala de telecomunicaciones, un conjunto
+            de cables de alta capacidad (como fibra óptica o cables de par
+            trenzado) conecta los cuartos de cada piso a una sala de servidores
+            central en el sótano, formando la columna vertebral de la red.
+          </p>
+          <p>
+            <b>Cables horizontales:</b> Desde la sala de telecomunicaciones de
+            cada piso, cables de par trenzado (como Cat 6 o Cat 6a) se extienden
+            a cada estación de trabajo, conectando computadoras, teléfonos IP y
+            otros dispositivos.
+          </p>
+          <p>
+            <b>Paneles de parcheo y racks:</b> Los cables de cada dispositivo
+            terminan en un panel de parcheo en la sala de telecomunicaciones, lo
+            que permite conectar y organizar fácilmente las conexiones entre
+            dispositivos y la red.
+          </p>
+          <p>
+            <b>Tomas de red:</b> En cada estación de trabajo hay tomas de red
+            (puertos RJ45) que permiten conectar dispositivos a la red mediante
+            cables Ethernet.
+          </p>
+        </div>
+        <div>
+          <div class="nav card">
+            <ul>
+              <a href="#Definicion_de_Red">
+                <li>¿Qué es una red?</li>
+              </a>
+              <a href="#Clases_de_Redes">
+                <li>Clases de redes</li>
+              </a>
+              <a href="#Definicion_de_Switch">
+                <li>¿Qué es un switch?</li>
+              </a>
+              <a href="#Modelo_OSI">
+                <li>Modelo OSI</li>
+              </a>
+              <a href="#Cableado_Estructurado">
+                <li>Cableado estructurado</li>
+              </a>
+            </ul>
+          </div>
+          <div class="card">
+            <h4>Autor del artículo</h4>
+            <div class="flex">
+              <img src="img-2.png" alt="user" width="35px" />
+              <span>Alejandro Caicedo</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
